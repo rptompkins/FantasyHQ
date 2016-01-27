@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="dsApp">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <section id="sidebar">
+        <div class="inner">
+          <nav>
+            <ul>
+              <li><a href="index.html">The HQ</a></li>
+              <li><a href="blog.html">The Blog</a></li>
+              <li><a href="managers.html">The Managers</a>
+              </li>
+              <li><a href="stats.html" class='active'>The Stats</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+  
+    <!-- Wrapper -->
+      <div id="wrapper">
+
+        <!-- Intro -->
+          <section id="intro" class="wrapper style1 fullscreen fade-up">
+            <div class="inner">
+              <h1>The Statistics</h1>
+							<p>The bread and butter of baseball. Everyone likes stats, unless your stats suck. Below is all available stats taken from the Dicksteak dating back to the inaugural year. Included are stats from currently active managers only.</p>
+              <ul class="actions">
+                <li><a href="#one" class="button scrolly">Learn more</a></li>
+              </ul>
+            </div>
+          </section>
+
+
+<div id='stats'>
+	
+</div>
+      
+
+    <!-- Footer -->
+      <footer id="footer" class="wrapper style1-alt">
+        <div class="inner">
+          <ul class="menu">
+            <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          </ul>
+        </div>
+      </footer>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/jquery.min.js"></script>
+        <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src='d3practice.js'></script>
+        <!-- endbuild -->
+</body>
+</html>
